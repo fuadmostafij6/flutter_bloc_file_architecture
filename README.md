@@ -1,17 +1,43 @@
-# flutter_bloc_architecture
+# Flutter BLoC File Architecture
 
-A new Flutter project.
+This is a basic Flutter project template that follows the BLoC (Business Logic Component) architecture pattern. It includes file organization for handling HTTP requests, permissions, and BLoC state management.
 
-## Getting Started
+## Project Structure
 
-This project is a starting point for a Flutter application.
+/lib
+/data
+/repository.dart
+/models
+/model.dart
+/bloc
+/bloc.dart
+/event.dart
+/state.dart
+/ui
+/screens
+/home_screen.dart
+/utils
+/api_client.dart
+/permission_handler.dart
 
-A few resources to get you started if this is your first Flutter project:
+- **data**: Contains repository classes responsible for interacting with data sources.
+- **models**: Defines data models used in the application.
+- **bloc**: Holds BLoC classes, events, and states for managing application state.
+- **ui/screens**: Contains UI components of the application, organized by screen.
+- **utils**: Includes utility classes for handling HTTP requests and permissions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# fuadmostafij6-flutter_bloc_file_architecture
+## Usage
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/your-username/flutter_bloc_file_architecture.git
+
+cd flutter_bloc_file_architecture
+
+flutter pub get
+
+flutter run
+
+
